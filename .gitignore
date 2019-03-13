@@ -1,0 +1,26 @@
+.idea/
+.vagrant/
+*.log
+app/var/
+app/vendor/
+references/
+
+###> symfony/framework-bundle ###
+app/.env
+app/public/bundles/
+###< symfony/framework-bundle ###
+
+###> symfony/webpack-encore-pack ###
+app/node_modules/*
+app/npm-debug.log
+app/yarn-error.log
+###< symfony/webpack-encore-pack ###
+
+###> symfony/phpunit-bridge ###
+app/.phpunit
+app/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/web-server-bundle ###
+app/.web-server-pid
+###< symfony/web-server-bundle ###
