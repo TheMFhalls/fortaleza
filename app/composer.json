@@ -8,6 +8,7 @@
         "enqueue/amqp-lib": "^0.9.8",
         "friendsofsymfony/rest-bundle": "^2.5",
         "liip/monitor-bundle": "^2.7",
+        "nelmio/api-doc-bundle": "^3.4",
         "sensio/framework-extra-bundle": "^5.1",
         "sonata-project/admin-bundle": "^3.46",
         "sonata-project/block-bundle": "^3.15",
