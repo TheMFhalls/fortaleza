@@ -105,7 +105,7 @@ Vagrant.configure("2") do |config|
     sudo add-apt-repository ppa:ondrej/php -y
     sudo apt-get update
     sudo apt-get install -y php7.2 php7.2-common php7.2-cli php7.2-fpm php7.2-mysql php7.2-curl php7.2-gd php7.2-gmp php7.2-mbstring
-    sudo apt-get install -y php-xml php-intl php-apcu php-memcached php-zip
+    sudo apt-get install -y php7.2-xml php7.2-intl php7.2-apcu php7.2-memcached php7.2-zip
 
     # run only on the development machine.
     sudo apt-get install -y  php7.2-xdebug
